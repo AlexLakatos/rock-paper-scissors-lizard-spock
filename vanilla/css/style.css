@@ -1,0 +1,153 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  height: 100%;
+  overflow-x: hidden;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #FAFAFA;
+  color: #B0BEC5;
+}
+
+#title {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: #FAFAFA;
+  height: 4rem;
+  font-size: 1.3rem;
+}
+
+#title p {
+  margin: 0 0 0 2rem;
+  line-height: 4rem;
+}
+
+#title #info-button {
+  float: right;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 0px 0px 0px 2rem;
+  line-height: 2.5rem;
+  text-align: center;
+  border-width: 0px 0px 0.7rem 0.7rem;
+  border-style: solid;
+  border-color: #26A69A;
+  font-weight: bold;
+  background-color: #263238;
+  color: #FFF;
+  cursor: pointer;
+  position: relative;
+  top: -4rem;
+}
+
+#info-box,
+#message-box {
+  position: fixed;
+}
+
+p#info-box {
+  padding-left: 1rem;
+  top: 0rem;
+  font-size: 0.8rem;
+  height: 5rem;
+  background-color: #FAFAFA;
+}
+
+#game-play-screen,
+#game-start-screen,
+#info-box {
+  height: 100%;
+  margin-top: 4rem;
+}
+
+#game-play-screen,
+#info-box {
+  display: none;
+}
+
+#game-start-screen {
+  text-align: center;
+}
+
+#game-start-screen #play-button {
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  font-size: 4rem;
+  bottom: 4rem;
+  margin: 0px;
+  font-weight: bold;
+  color: #FFFFFF;
+  background-color: #000000;
+  cursor: pointer;
+}
+
+#game-start-screen #play-button span {
+  background-color: #26A69A;
+  display: block;
+  border-radius: 6rem 0;
+  width: 24rem;
+  margin: auto;
+  padding: 0 0 0.5rem 0;
+}
+
+#message-box {
+  top: 10rem;
+  text-align: center;
+  width: 100%;
+  font-size: 2rem;
+}
+
+#player-icons {
+  position: fixed;
+  top: 16rem;
+  text-align: center;
+  width: 100%;
+}
+
+#player-icons #slash {
+  display: inline-block;
+  height: 140px;
+  line-height: 140px;
+  font-size: 100px;
+  width: 30px;
+  margin: 0px;
+  position: relative;
+  top: -35px;
+  left: -15px;
+}
+
+#score-box {
+  position: relative;
+  top: -4rem;
+  font-size: 3rem;
+  margin: 0;
+}
+
+#player-score,
+#computer-score {
+  position: relative;
+}
+
+#computer-score {
+  left: -6.5rem;
+}
+
+#player-score {
+  left: 6.6rem;
+}
+
+#selection-box {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+}
+
+#selection-box img{
+  cursor: pointer;
+}
+
+
